@@ -1,0 +1,56 @@
+html, body, #root, .wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.massive-item {
+	height: 300px;
+	width: 800px;
+}
+
+.outerscroll {
+	overflow: auto;
+	width: 800px;
+	height: 400px;
+}
+
+.scroll {
+	margin: 0 auto;
+	width: 2000px;
+	height: 800px;
+	background-color: rgb(231, 230, 230);
+}
+
+.sortable-hoc {
+	box-sizing: border-box;
+	width: 800px;
+	height: 80%;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: rgb(231, 230, 230);
+	
+}
+
+.sortable-ghost {
+	opacity: 0;
+}
+
+.list {
+	overflow-x: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	padding: 12px 20px;
+	border: 1px solid black;
+	background-color: white;
+	text-align: center;
+}
